@@ -18,7 +18,7 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente. Faça seu login para acessar sua conta e poder fazer as configurações de ambiente.</p>
-                <form action="login.php" method="post" autocomplete="on"></form>
+                <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">
                             person
@@ -32,12 +32,12 @@
                             </span>
                         <input type="password" name="password" id="ipassword" required minlength="6" maxlength="16" placeholder="sua senha" autocomplete="current-password">
                         <label for="ipassword">Password</label>
-                    </div>
-                <p>
-                    <input type="submit" value="Entrar"><br>
-                    <a href="esqueci.html">Esqueci a senha <span class="material-icons">mail</span></a>
-                </p>
-
+                    </div>  
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html" class="botao">Esqueci a senha
+                        <span class="material-icons-outlined"></span>
+                    </a>
+                </form>
             </div>
         </section>
     </main>
